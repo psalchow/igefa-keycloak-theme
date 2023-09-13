@@ -1,0 +1,6 @@
+{
+  "themes": [{
+    "name" : "igefa",
+    "types": [ "login" ]
+  }]
+}

@@ -1,0 +1,22 @@
+:root {
+    --pf-global--primary-color--100: #134389;
+    --pf-global--primary-color--dark-100: #134389;
+    --pf-global--primary-color--200: #002849;
+}
+
+body.igefa-login-body {
+    background: var(--pf-global--BackgroundColor--100);
+}
+
+.igefa-header div.kc-logo-text {
+    background-image: url(../img/igefa-logo.svg);
+    width: 500px;
+    height: 72px;
+}
+
+@media (max-width: 767px) {
+    .igefa-header div.kc-logo-text {
+        width: 105px;
+        height: 54px;
+    }
+}
